@@ -11,6 +11,7 @@ app = FastAPI()
     tags=['blogs'],
     summary='blog api summary',
     # description='blog api description',
+    response_description='This is response description in swagger',
 )
 def index(id: int, response: Response):
     """
