@@ -1,4 +1,5 @@
 fastapi
+flake8
 uvicorn
 sqlalchemy
 passlib
